@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BarcodeScanner</string>
+    <string name="nullObject">Scanner returned null object</string>
+    <string name="noData">No data at all =(</string>
+    <string name="canceledScan">User canceled the scan</string>
+    <string name="error">Error occurred!</string>
+    <string name="help_place_code">Please place the code in the rectangle above.</string>
+</resources>
