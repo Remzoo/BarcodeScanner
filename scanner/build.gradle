@@ -1,11 +1,10 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 30
 
     defaultConfig {
-        applicationId "morawski.rafal.barcodescanner"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
