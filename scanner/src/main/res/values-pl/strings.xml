@@ -5,5 +5,5 @@
     <string name="noData">No data at all =(</string>
     <string name="canceledScan">User canceled the scan</string>
     <string name="error">Error occurred!</string>
-    <string name="help_place_code">Umieść kod w polu powyżej.</string>
+    <string name="help_place_code">Umieść kod w polu powyżej</string>
 </resources>
