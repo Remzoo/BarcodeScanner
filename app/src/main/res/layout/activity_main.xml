@@ -11,12 +11,13 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:text="Run Barcode Scanner"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/cbFlashEnabled" />
 
     <TextView
         android:id="@+id/resultLabel"
@@ -39,5 +40,26 @@
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/resultLabel"
         app:layout_constraintTop_toBottomOf="@+id/resultLabel" />
+
+    <CheckBox
+        android:id="@+id/cbBeepEnable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:checked="true"
+        android:text="Enable beep sound on detect"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/cbFlashEnabled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:checked="true"
+        android:text="Enable flash icon"
+        app:layout_constraintStart_toStartOf="@+id/cbBeepEnable"
+        app:layout_constraintTop_toBottomOf="@+id/cbBeepEnable" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

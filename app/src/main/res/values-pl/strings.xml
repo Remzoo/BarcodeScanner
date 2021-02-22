@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BarcodeScanner</string>
+    <string name="nullObject">Scanner returned null object</string>
+    <string name="noData">No data at all =(</string>
+    <string name="canceledScan">User canceled the scan</string>
+    <string name="error">Error occurred!</string>
+    <string name="help_place_code">Umieść kod w polu powyżej.</string>
+</resources>
